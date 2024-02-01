@@ -1947,6 +1947,32 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
+survey-core@1.9.128, survey-core@^1.9.127:
+  version "1.9.128"
+  resolved "https://registry.yarnpkg.com/survey-core/-/survey-core-1.9.128.tgz#17d2598d4901e70951277fc5d5bfb4bba4f144c7"
+  integrity sha512-57vtR9ncOQi+OXgeredtT3AjR2YWpD6W3oQ8X0Z/HCHB/96whAW1wEQaRVxac6j1bqgvQMZoKqU2gRjq1Tbrfg==
+
+survey-creator-core@1.9.128, survey-creator-core@^1.9.127:
+  version "1.9.128"
+  resolved "https://registry.yarnpkg.com/survey-creator-core/-/survey-creator-core-1.9.128.tgz#d1d26dfe782f8bd226a963e552c6496909f78c79"
+  integrity sha512-sXOar1iDELoxsQ2h/hQ9YUHfEL1sEpn5AFv+Dr0Zz8HgpoeXtW92YZznj+NyNeXoQdT6QPk9Z0R3EoiJrPzWWQ==
+  dependencies:
+    survey-core "1.9.128"
+
+survey-creator-react@^1.9.127:
+  version "1.9.128"
+  resolved "https://registry.yarnpkg.com/survey-creator-react/-/survey-creator-react-1.9.128.tgz#5646d20b8656cc4b996d7803b7ea20a47914fcf6"
+  integrity sha512-vrrgR8MKHZs8HPMO5YO8d9b1SQH8aBucBXp04Gwp1c97fFc9uwRpWW19BxOJyKPSWTOt+dDw7Pd9b+SKcYC0aQ==
+  dependencies:
+    survey-core "1.9.128"
+    survey-creator-core "1.9.128"
+    survey-react-ui "1.9.128"
+
+survey-react-ui@1.9.128:
+  version "1.9.128"
+  resolved "https://registry.yarnpkg.com/survey-react-ui/-/survey-react-ui-1.9.128.tgz#5c3175d7942b7a80b306df4ed346d7bd695eb0b2"
+  integrity sha512-CuwFBCFVZ2kfyM70qNorqoSI5/m/Ott0MZp3OIVXBcYeXCtVHZx1r7099hI8i56nDEq0gJ76lsHVuI/RJq4+0w==
+
 synckit@^0.8.5:
   version "0.8.5"
   resolved "https://registry.yarnpkg.com/synckit/-/synckit-0.8.5.tgz#b7f4358f9bb559437f9f167eb6bc46b3c9818fa3"
