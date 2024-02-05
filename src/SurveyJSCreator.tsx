@@ -5,7 +5,8 @@ import { SurveyCreatorComponent, SurveyCreator } from 'survey-creator-react';
 import { TranslationsContext } from './contexts/TranslationsContext';
 
 export function SurveyJSCreator() {
-    const creator = new SurveyCreator();
+    //const creator = new SurveyCreator();
+    const [creator] = React.useState(() => new SurveyCreator());
     const { translations } = React.useContext(TranslationsContext);
 
     return (
